@@ -46,7 +46,7 @@ cd ../..
 echo "----------------------------------------"
 cd packages/apps/OmniGears
 echo "Patching OmniGears: Implement App circle sidebar"
-git fetch https://gerrit.omnirom.org/android_packages_apps_OmniGears refs/changes/79/6379/4 && git cherry-pick FETCH_HEAD
+git fetch https://gerrit.omnirom.org/android_packages_apps_OmniGears refs/changes/79/6379/6 && git cherry-pick FETCH_HEAD
 cd ../../..
 echo "----------------------------------------"
 cd packages/apps/OmniSwitch
