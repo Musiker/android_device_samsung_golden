@@ -51,7 +51,7 @@ cd ../../..
 echo "----------------------------------------"
 cd packages/apps/OmniSwitch
 echo "OmniSwitch: Allow open app as floating window"
-git fetch https://gerrit.omnirom.org/android_packages_apps_OmniSwitch refs/changes/61/6661/1 && git cherry-pick FETCH_HEAD
+git fetch https://gerrit.omnirom.org/android_packages_apps_OmniSwitch refs/changes/61/6661/3 && git cherry-pick FETCH_HEAD
 cd ../../..
 echo "----------------------------------------"
 echo "DONE"
