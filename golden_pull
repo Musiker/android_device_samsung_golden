@@ -22,7 +22,7 @@ cd ../..
 echo "----------------------------------------"
 echo "Patching system_core -> STE OMX Fix"
 cd system/core
-git fetch https://gerrit.omnirom.org/android_system_core refs/changes/30/6830/5 && git cherry-pick FETCH_HEAD
+git fetch https://gerrit.omnirom.org/android_system_core refs/changes/30/6830/6 && git cherry-pick FETCH_HEAD
 echo "----------------------------------------"
 echo "Patching system_core -> Fix shutdown/reboot bug"
 git fetch https://gerrit.omnirom.org/android_system_core refs/changes/31/6831/1 && git cherry-pick FETCH_HEAD
@@ -35,10 +35,10 @@ cd ../../..
 echo "----------------------------------------"
 cd frameworks/base
 echo "Patching frameworks_base: Floating window with multitasking"
-git fetch https://gerrit.omnirom.org/android_frameworks_base refs/changes/80/6380/20 && git cherry-pick FETCH_HEAD
+git fetch https://gerrit.omnirom.org/android_frameworks_base refs/changes/80/6380/21 && git cherry-pick FETCH_HEAD
 echo "----------------------------------------"
 echo "Patching frameworks_base: implement App circle sidebar"
-git fetch https://gerrit.omnirom.org/android_frameworks_base refs/changes/78/6378/17 && git cherry-pick FETCH_HEAD
+git fetch https://gerrit.omnirom.org/android_frameworks_base refs/changes/78/6378/19 && git cherry-pick FETCH_HEAD
 echo "----------------------------------------"
 echo "Patching frameworks_base: App Circle sidebar (add support floating window)"
 git fetch https://gerrit.omnirom.org/android_frameworks_base refs/changes/15/6515/9 && git cherry-pick FETCH_HEAD
@@ -51,7 +51,7 @@ cd ../../..
 echo "----------------------------------------"
 cd packages/apps/OmniSwitch
 echo "OmniSwitch: Allow open app as floating window"
-git fetch https://gerrit.omnirom.org/android_packages_apps_OmniSwitch refs/changes/61/6661/3 && git cherry-pick FETCH_HEAD
+git fetch https://gerrit.omnirom.org/android_packages_apps_OmniSwitch refs/changes/61/6661/5 && git cherry-pick FETCH_HEAD
 cd ../../..
 echo "----------------------------------------"
 echo "DONE"
